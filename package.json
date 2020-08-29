@@ -8,9 +8,7 @@
     "node": "13.12.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "client": "npm run start",
-    "install": "npm install"
+    "start": "node server.js"
     
   },
   "author": "",
