@@ -4,10 +4,10 @@ const bookRoutes = require("./books");
 const googleRoutes = require("./google");
 
 // Book routes
-router.use("https://booksfronend123.web.app/books", bookRoutes);
+router.use("/books", bookRoutes);
 
 // Google Routes
-router.use("https://booksfronend123.web.app/google", googleRoutes);
+router.use("/google", googleRoutes);
 
 // For anything else, render the html page
 // router.use(function(req, res) {
