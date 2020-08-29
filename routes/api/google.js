@@ -3,7 +3,7 @@ const googleController = require("../../controllers/googleController");
 
 // Matches with "/api/google"
 router
-  .route("/")
+  .route("https://booksfronend123.web.app/")
   .get(googleController.findAll);
 
 module.exports = router;
